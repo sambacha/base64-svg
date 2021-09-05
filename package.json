@@ -1,0 +1,55 @@
+{
+  "name": "solidity-hardhat-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "typescript hardhat base with conformant linting",
+  "files": [
+    "/contracts/**/*.sol",
+    "/build/contracts/*.json",
+    "!/contracts/mocks/**/*"
+  ],
+  "scripts": {
+    "build": "npx tsc -b",
+    "compile": "npx hardhat compile",
+    "coverage": "npx hardhat coverage",
+    "test": "npx hardhat test",
+    "lint": "npx gts lint",
+    "format": "npx prettier --config prettier.config.js --write .",
+    "clean": "npx gts clean",
+    "fix": "npx gts fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/solidity-hardhat-template.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart contracts",
+    "defi"
+  ],
+  "author": "SEE CONTRIBUTORS",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/sambacha/solidity-hardhat-template/issues"
+  },
+  "homepage": "https://github.com/sambacha/solidity-hardhat-template#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "2.0.2",
+    "@tenderly/hardhat-tenderly": "1.0.12",
+    "@typechain/ethers-v5": "^7.0.1",
+    "@typechain/hardhat": "2.2.0",
+    "@types/node": "14.17.9",
+    "dotenv": "10.0.0",
+    "ethers": "5.4.1",
+    "gts": "3.1.0",
+    "hardhat": "2.5.0",
+    "prettier": "2.3.2",
+    "prettier-config-solidity": "^1.5.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.17",
+    "ts-generator": "0.1.1",
+    "ts-node": "^10.2.1",
+    "typechain": "5.1.2",
+    "typescript": "4.3.5"
+  }
+}
