@@ -1,6 +1,6 @@
 {
-  "name": "solidity-hardhat-template",
-  "private": true,
+  "name": "base64-solidity",
+  "private": false,
   "version": "1.0.0",
   "description": "typescript hardhat base with conformant linting",
   "files": [
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sambacha/solidity-hardhat-template.git"
+    "url": "git+https://github.com/sambacha/base64-solidity.git"
   },
   "keywords": [
     "solidity",
@@ -31,9 +31,9 @@
   "author": "SEE CONTRIBUTORS",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/sambacha/solidity-hardhat-template/issues"
+    "url": "https://github.com/sambacha/base64-solidity/issues"
   },
-  "homepage": "https://github.com/sambacha/solidity-hardhat-template#readme",
+  "homepage": "https://github.com/sambacha/base64-solidity#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "2.0.2",
     "@tenderly/hardhat-tenderly": "1.0.12",
